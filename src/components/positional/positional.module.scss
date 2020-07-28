@@ -1,0 +1,13 @@
+.container {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.inner {
+  composes: container;
+  max-width: 1200px;
+  overflow: auto;
+  position: static;
+}
